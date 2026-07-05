@@ -1,0 +1,5 @@
+# config for the run -- kept it simple, just the 3 things run.py needs
+
+seed: 42       # for reproducibility, np.random.seed() gets set to this
+window: 5      # rolling window size, tried a few values and 5 felt reasonable for this data
+version: "v1"  # bumping this if I ever change the pipeline logic later
